@@ -1,0 +1,104 @@
+.container {
+  padding: 0 2rem;
+  background-color: #36096d;
+  background-image: url("../public/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 150px;
+  height: 150px;
+}
+
+/****************** Form ******************/
+.wrapper {
+  width: 50%;
+  height: auto;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.formContainer {
+  display: flex;
+  width: 40em;
+  height: 65%;
+  flex-direction: column;
+  align-items: center;
+}
+.formContainer h3 {
+  color: white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 300;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.form {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+}
+.formInput {
+  padding: 12px 16px;
+  height: 3.2em;
+  width: 80%;
+  border: 1px solid #10a37f;
+  border-radius: 4px;
+  font-size: medium;
+}
+.submit {
+  padding: 12px 0;
+  margin-left: 7px;
+  color: #fff;
+  background-color: #10a37f;
+  border: none;
+  height: 3.5em;
+  width: 30%;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/****************** Results Container ******************/
+.resultsContainer {
+  margin-top: 0;
+}
+.resultsContainer li {
+  list-style: none;
+  color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/****************** Media Queries ******************/
+@media (max-width: 1150px) {
+  .wrapper {
+      width: 75%;
+      height: auto;
+ }
+}
+@media (max-width: 768px) {
+  .wrapper {
+      width: 75%;
+      height: auto;
+ }
+  .formContainer {
+      width: 100%;
+ }
+  .formContainer h3 {
+      font-size: 16px;
+ }
+  .resultsContainer li {
+      text-align: center;
+      font-size: 12px;
+      margin-bottom: 3px;
+ }
+}

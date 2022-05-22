@@ -1,0 +1,1 @@
+Enter the name of a city & recieve data back - this project leverages Next.js and OpenAI. 
